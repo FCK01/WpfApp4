@@ -1,0 +1,21 @@
+﻿<Window x:Class="WpfApp4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp4"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="46,59,0,0" VerticalAlignment="Top" Width="276" Height="81" Click="Button_Click"/>
+        <CheckBox x:Name="check" Content="Закрыть окно по завершении" HorizontalAlignment="Left" Margin="272,304,0,0" VerticalAlignment="Top" Height="24" Width="276" Checked="CheckBox_Checked"/>
+        <ToggleButton Content="Button" HorizontalAlignment="Left" Margin="489,59,0,0" VerticalAlignment="Top" Width="276" Height="81" Checked="ToggleButton_Checked"/>
+        <RadioButton x:Name="R1" Content="Загрузиться с жесткого диска" HorizontalAlignment="Left" Margin="489,184,0,0" VerticalAlignment="Top" Height="18" Width="276" Checked="R1_Checked"/>
+        <RadioButton x:Name="R2" Content="Загрузить с DVD привода" HorizontalAlignment="Left" Margin="489,207,0,0" VerticalAlignment="Top" Height="18" Width="276" Checked="R2_Checked"/>
+        <RadioButton x:Name="R3" Content="Установить операционную систему" HorizontalAlignment="Left" Margin="489,225,0,0" VerticalAlignment="Top" Height="18" Width="276" Checked="R3_Checked"/>
+        <ComboBox HorizontalAlignment="Left" Margin="46,180,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.647,0.371"/>
+        
+
+
+    </Grid>
+</Window>
